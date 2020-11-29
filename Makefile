@@ -9,11 +9,9 @@ MAN_SRC = 	ft_strlen.o \
 			ft_read.o \
 			ft_strdup.o
 
-BON_SRC =	ft_atoi_base_bonus.o \
-			ft_list_push_front_bonus.o \
+BON_SRC =	ft_list_push_front_bonus.o \
 			ft_list_size_bonus.o \
 			ft_list_sort_bonus.o \
-			ft_list_remove_if_bonus.o
 
 MAN_SRC :=		$(MAN_SRC:%=$(SRC_DIR)%)
 
